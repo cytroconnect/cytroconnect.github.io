@@ -1,7 +1,7 @@
 #!/bin/sh
 
 SOURCE_REPOSITORY_NAME=cytroconnect.com
-SOURCE_URL=git clone git@bitbucket.org:consultconnect/$SOURCE_REPOSITORY_NAME
+SOURCE_URL=git@bitbucket.org:consultconnect/$SOURCE_REPOSITORY_NAME
 TARGET_URL=git@github.com:cytroconnect/cytroconnect.github.io.git
 
 echo "Current path is"
