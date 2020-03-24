@@ -1,0 +1,93 @@
+baseurl = ""
+languageCode = "en-us"
+title = "Cytroconnect"
+theme = "hugo-creative-theme"
+googleAnalytics = ""
+
+[params]
+
+	
+	name = "Bosch Grow"
+	description = ""
+
+	# The path must be relative to the static folder
+	#favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Cytroconnect"
+
+		[params.navigation.links]
+			dashboard = "Customer Dashboard"
+			contact   = " "
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Cytroconnect"
+		subtitle   = "Less surprises. More availability"
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "The IoT Service for your CytroBox - Always available"
+		description = "Your revolutionary hydraulic power supply, the CytroBox, enables you to unlock the potentials of IoT Technologies easily and riskless with the CytroConnect Service. All Information on your CytroBox conveniently at hand – from component and operating state to upcoming Maintenance Tasks and Predictive Analytics utilizing the Rexroth Know-How."
+		#buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "How can we help you?"
+
+        [[params.services.list]]
+            icon = "fa-plug"
+            title = "Activate Cytroconnect"
+            description = "Step by step activation procedures."
+			link = "#portfolioModal1"
+
+        [[params.services.list]]
+			icon = "fa-book"
+			title = "Terms and Conditions EMEA"
+			description = "Terms and Conditions for Germany and EMEA customers"
+ 
+ 		[[params.services.list]]
+            icon = "fa-shopping-cart"
+            title = "Order Form US"
+            description = "Order Form for US customers"
+			link = "http://www.google.com"
+
+        [[params.services.list]]
+			icon = "fa-book"
+			title = "Terms and Conditions US"
+			description = "Terms and Conditions for US customers"			
+
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "About us"
+
+		[params.aside.button]
+			text = "Corporate Information"
+			link = "//github.com/digitalcraftsman/hugo-creative-theme"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!"
+		phone = "123-456-6789"
+		email = "feedback@startbootstrap.com"
+
+	# Google Maps section
+	# [params.location]
+	# 	latitude  = "34.007850"
+	# 	longitude = "-118.499305"
+	# 	maps_api_key = ""

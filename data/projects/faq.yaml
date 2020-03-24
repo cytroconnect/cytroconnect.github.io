@@ -1,0 +1,11 @@
+modalID: 2
+title: F.A.Q.
+summary: Frequently Asked Questions.
+icon: fa-question-circle
+img: faq.jpg
+description: >
+  # FAQ.
+    - How to activate cytroconnect
+    - What do I do if my box is not connected?
+    - Login issues (single sign on)
+    - Registration issues
